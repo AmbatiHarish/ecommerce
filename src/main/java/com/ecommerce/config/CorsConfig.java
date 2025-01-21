@@ -11,7 +11,7 @@ public class CorsConfig {
 	@Bean
 	CorsFilter corsFilter() {
 		CorsConfiguration config = new CorsConfiguration();
-		config.addAllowedOrigin("https://monumental-snickerdoodle-d2a061.netlify.app"); // React's URL
+		config.addAllowedOrigin("https://shimmering-arithmetic-58eaa1.netlify.app"); // React's URL
 		config.addAllowedHeader("*");
 		config.addAllowedMethod("*");
 
